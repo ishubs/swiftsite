@@ -21,7 +21,7 @@ const data = [
       avatar: avatar1,
       name: 'Corey Seaman',
       username: 'Founder @ Migrationade / Attorney ',
-      text: `I want to express my admiration for Shubham Giri and their exceptional website development team. Just as SwiftSite provided outstanding service, Shubham has impressed me with their professionalism and patience. Their adaptability to my changing requirements reiterates why I prefer working through agencies. The websites they've built using React are beyond my expectations. A heartfelt thank you for reaffirming my trust in collaborative expertise.`,
+      text: `I want to express my admiration for Shubham Giri and their exceptional website development team. Just as ByteBath provided outstanding service, Shubham has impressed me with their professionalism and patience. Their adaptability to my changing requirements reiterates why I prefer working through agencies. The websites they've built using React are beyond my expectations. A heartfelt thank you for reaffirming my trust in collaborative expertise.`,
     },
     {
       id: 2,

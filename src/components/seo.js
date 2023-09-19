@@ -3,9 +3,9 @@ import Head from 'next/head';
 
 export default function SEO({
   description = '',
-  author = 'SwiftSite',
+  author = 'ByteBath',
   meta,
-  title = 'SwiftSite Solutions',
+  title = 'ByteBath Labs',
 }) {
   const metaData = [
     {

@@ -11,14 +11,15 @@ import Dashboard from 'sections/dashboard';
 import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
 import Subscribe from 'sections/subscribe';
+import Work from 'sections/work'
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="SwiftSite Solutions"
-          description="SwiftSite Solutions is a web development company that specializes in providing IT services for all kinds of business needs."
+          title="ByteBath Labs"
+          description="ByteBath Labs is a web development company that specializes in providing IT services for all kinds of business needs."
         />
         <Banner />
         <Support />
@@ -26,6 +27,7 @@ export default function IndexPage() {
         {/* <AppFeature /> */}
         {/* <Dashboard /> */}
         {/* <Pricing /> */}
+        <Work />
         <Testimonials />
         <Subscribe />
       </Layout>

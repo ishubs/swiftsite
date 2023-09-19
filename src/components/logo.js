@@ -7,7 +7,7 @@ export default function Logo({ isWhite, ...props }) {
   return (
     <Link path="/" sx={styles.logo} {...props}>
       {/* <LogoSvg isWhite={isWhite} /> */}
-      SwiftSite
+      ByteBath
     </Link>
   );
 }
@@ -18,7 +18,7 @@ const styles = {
     display: 'inline-flex',
     fontSize: '24px',
     fontWeight: 700,
-    color: '#FFC059',
+    color: '#50C878',
     svg: {
       height: 'auto',
       width: [128, null, '100%'],

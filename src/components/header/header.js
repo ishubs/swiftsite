@@ -61,9 +61,11 @@ export default function Header() {
                     <Image src={lock} alt="lock icon" />
                     Login
                   </button> */}
+                  <a style={{textDecoration: 'none'}} href="https://calendly.com/byetbath/30min" target='_blank'>
                   <Button variant="text" sx={styles.getStarted}>
                     Schedule a Call
                   </Button>
+                  </a>
                 </Flex>
                 <NavbarDrawer />
               </Box>
@@ -135,8 +137,8 @@ const styles = {
     },
   },
   getStarted: {
-    backgroundColor: '#FFF0D7',
-    color: '#E6A740',
+    backgroundColor: '#C1E1C1',
+    color: '#009E60',
     p: ['0 16px'],
     minHeight: 45,
     ml: [6],

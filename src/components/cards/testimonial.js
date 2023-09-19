@@ -12,7 +12,7 @@ const Testimonial = ({ data }) => {
         </Box>
         <Box>
           <Heading as="h3">{data.name}</Heading>
-          <Heading as="h4" href={data.username}>{data.username}</Heading>
+          {/* <Heading as="h4" href={data.username}>{data.username}</Heading> */}
         </Box>
       </Flex>
     </Box>

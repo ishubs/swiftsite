@@ -33,7 +33,7 @@ const Banner = () => {
               Empowering Your Digital Future
             </Heading>
             <Text as="p">
-              Unlocking Strategic Solutions for Seamless IT Excellence. Elevate Your business with our export
+              Unlocking Strategic Solutions for Seamless IT Excellence. Elevate Your business with our expert
               team of IT professionals.
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
