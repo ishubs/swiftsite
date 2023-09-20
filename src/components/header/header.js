@@ -9,7 +9,7 @@ import Logo from 'components/logo';
 import { NavLink } from 'components/link';
 
 import menuItems from './header.data';
-import lock from 'assets/images/icons/lock.png';
+import lock from 'assets/images/icons/lock.jpg';
 
 export default function Header() {
   const [state, setState] = useState({
@@ -57,10 +57,12 @@ export default function Header() {
                   </Box>
                 </Flex>
                 <Flex sx={styles.buttonGroup}>
-                  {/* <button sx={styles.login}>
-                    <Image src={lock} alt="lock icon" />
-                    Login
-                  </button> */}
+                  <a target='_blank' style={{textDecoration: 'none', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' , color: 'green'}} href='https://wa.me/919346009605?text=Hi%20there%2C%20I%20need%20web%20development%20services.'>
+                  <button sx={styles.login} style={{cursor: 'pointer'}}>
+                    {/* <Image src={lock} alt="lock icon" /> */}
+                    WhatsApp Us
+                  </button>
+                  </a>
                   <a style={{textDecoration: 'none'}} href="https://calendly.com/byetbath/30min" target='_blank'>
                   <Button variant="text" sx={styles.getStarted}>
                     Schedule a Call
@@ -147,7 +149,7 @@ const styles = {
   login: {
     backgroundColor: 'transparent',
     position: ['absolute', null, null, null, 'static'],
-    color: 'text',
+    color: 'green',
     fontSize: [2],
     fontWeight: 500,
     top: '50%',

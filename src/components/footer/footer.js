@@ -27,7 +27,7 @@ export default function Footer() {
           <Flex sx={styles.copyright}>
             <Logo isWhite />
             <Text as="span">
-              &copy; Copyright by {new Date().getFullYear()} SwiftSite
+              &copy; Copyright by {new Date().getFullYear()} ByteBath Labs
             </Text>
           </Flex>
           <Flex as="ul" sx={styles.footerNav}>

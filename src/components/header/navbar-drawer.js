@@ -8,7 +8,6 @@ import Drawer from 'components/drawer';
 import Logo from 'components/logo';
 import menuItems from './header.data';
 import close from 'assets/images/icons/close.png';
-
 const NavbarDrawer = () => {
   const { state, dispatch } = useContext(DrawerContext);
 
@@ -57,9 +56,16 @@ const NavbarDrawer = () => {
             </Box>
           ))}
         </Box>
+        <a style={{textDecoration: 'none', 
+    margin: 'auto 30px 40px',
+      display: 'flex'
+      }} href="https://calendly.com/byetbath/30min" target='_blank'>
+                  
         <Button variant="primary" sx={styles.donateNow}>
-          Donate Now
+          Schedule a Call
         </Button>
+        </a>
+
       </Box>
     </Drawer>
   );
@@ -138,6 +144,6 @@ const styles = {
   donateNow: {
     fontSize: 1,
     minHeight: 45,
-    margin: 'auto 30px 40px',
+    flex : 1
   },
 };
