@@ -5,7 +5,7 @@ import SectionHeading from 'components/section-heading';
 import SubscriptionForm from 'components/subscription-form';
 import { Button } from 'theme-ui';
 import { useState } from 'react';
-import Modal from 'antd/es/modal/Modal';
+import {Modal} from 'antd'  ;
 import { message } from 'antd';
 const Subscribe = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)

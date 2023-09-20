@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Modal, message } from 'antd';
 const SubscriptionForm = ({ buttonLabel, ...props }) => {
   const [id, setId] = useState('');
-  const [isModalOpen, setIsModalOpen] = useState(true)
+  const [isModalOpen, setIsModalOpen] = useState(false)
   useEffect(() => {
     setId(Date.now());
   }, []);
