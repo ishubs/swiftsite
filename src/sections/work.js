@@ -51,7 +51,7 @@ const Features = () => {
               title={
                 <Fragment>
                   Industry Experience <br />
-                  that you can reply on &amp; anytime
+                  that you can rely on anytime
                 </Fragment>
               }
               description="With a wide range of industry experience of our highly qualified developers, We deliver high performing projects with minimal client hassle"
