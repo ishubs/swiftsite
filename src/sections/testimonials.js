@@ -64,13 +64,13 @@ const data = [
     // },
   ],
   [
-    {
-      id: 7,
-      avatar: avatar7,
-      name: 'Veona Watson',
-      username: '@hi.veona',
-      text: `I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you`,
-    },
+    // {
+    //   id: 7,
+    //   avatar: avatar7,
+    //   name: 'Veona Watson',
+    //   username: '@hi.veona',
+    //   text: `I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you`,
+    // },
     {
       id: 8,
       avatar: avatar8,
