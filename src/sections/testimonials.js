@@ -26,25 +26,25 @@ const data = [
     {
       id: 2,
       avatar: avatar2,
-      name: 'Minnie Horn',
-      username: '@hello.mimmie',
-      text: `I would like to take this opportunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.`,
+      name: 'Horizon Logistics International',
+      username: 'Horizon Logistics International',
+      text: `I would like to take this opportunity to thank ByteBath Technologies for the great service rendered to us and in particular Shubham Giri and Team. You got me the best place ever in just a few moments after I spoke to you.`,
     },
   ],
   [
     {
       id: 3,
       avatar: avatar3,
-      name: 'Merryn Manley',
+      name: 'Sterling Financial Group',
       username: '@merryn.manley',
-      text: `Many thanks for you kind and efficient service. I have already and will definitely continue to recommend your services to others in the future.`,
+      text: `Many thanks for you kind and efficient service. We have already and will definitely continue to recommend your services to others in the future.`,
     },
     {
       id: 4,
       avatar: avatar4,
-      name: 'Paseka Nku',
+      name: 'Raj Enterprises',
       username: '@hey.nku',
-      text: `I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you`,
+      text: `I would just like to compliment Aakash Kumar. He has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose an agency instead of individuals. Thank you`,
     },
   ],
   [
@@ -55,13 +55,13 @@ const data = [
       username: '@cherice.me',
       text: `Thank you for all your help. Your service was excellent and very FAST.`,
     },
-    {
-      id: 6,
-      avatar: avatar6,
-      name: 'Thais Carballal',
-      username: '@myself.thais',
-      text: `For our recent trip to S.A. I booked several accommodation thru SA Places. I just wanted to tell you that everything worked out perfectly with all the bookings and also your booking was very quick and professional. I hope I have the opportunity to re-visit South Africa soon, I will then make my bookings with your company again. I will also recommend`,
-    },
+    // {
+    //   id: 6,
+    //   avatar: avatar6,
+    //   name: 'Thais Carballal',
+    //   username: '@myself.thais',
+    //   text: `For our recent trip to S.A. I booked several accommodation thru SA Places. I just wanted to tell you that everything worked out perfectly with all the bookings and also your booking was very quick and professional. I hope I have the opportunity to re-visit South Africa soon, I will then make my bookings with your company again. I will also recommend`,
+    // },
   ],
   [
     {
@@ -80,19 +80,19 @@ const data = [
     },
   ],
   [
-    {
-      id: 9,
-      avatar: avatar1,
-      name: 'Merryn Manley',
-      username: '@merryn.manley',
-      text: `Many thanks for you kind and efficient service. I have already and will definitely continue to recommend your services to others in the future.`,
-    },
+    // {
+    //   id: 9,
+    //   avatar: avatar1,
+    //   name: 'Merryn Manley',
+    //   username: '@merryn.manley',
+    //   text: `Many thanks for you kind and efficient service. I have already and will definitely continue to recommend your services to others in the future.`,
+    // },
     {
       id: 10,
       avatar: avatar2,
-      name: 'Paseka Nku',
+      name: 'Venkatesh Perugu',
       username: '@hey.nku',
-      text: `I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you`,
+      text: `We've worked with several web development firms, but ByteBath Technologies stands out. Their professionalism, technical expertise, and creative flair make them the ideal partner for transforming ideas into exceptional web solutions`,
     },
   ],
   [
@@ -101,15 +101,15 @@ const data = [
       avatar: avatar3,
       name: 'Cherice Justin',
       username: '@cherice.me',
-      text: `Thank you for all your help. Your service was excellent and very FAST.`,
+      text: `ByteBath Technologies exceeded our expectations. Their technical prowess and attention to detail brought our vision to life seamlessly. Their professionalism and commitment to client satisfaction are unmatched. Highly recommend them for web development.`,
     },
-    {
-      id: 12,
-      avatar: avatar4,
-      name: 'Thais Carballal',
-      username: '@myself.thais',
-      text: `For our recent trip to S.A. I booked several accommodation thru SA Places. I just wanted to tell you that everything worked out perfectly with all the bookings and also your booking was very quick and professional. I hope I have the opportunity to re-visit South Africa soon, I will then make my bookings with your company again. I will also recommend`,
-    },
+    // {
+    //   id: 12,
+    //   avatar: avatar4,
+    //   name: 'Thais Carballal',
+    //   username: '@myself.thais',
+    //   text: `For our recent trip to S.A. I booked several accommodation thru SA Places. I just wanted to tell you that everything worked out perfectly with all the bookings and also your booking was very quick and professional. I hope I have the opportunity to re-visit South Africa soon, I will then make my bookings with your company again. I will also recommend`,
+    // },
   ],
 ];
 
