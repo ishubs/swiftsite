@@ -27,17 +27,17 @@ const SubscriptionForm = ({ buttonLabel, ...props }) => {
           <div style={styles.contactMethod}>
             <a target='_blank' style={{ textDecoration: 'none', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', color: 'green' }} href='https://wa.me/919346009605?text=Hi%20there%2C%20I%20need%20web%20development%20services.'>
 
-              <Button>WhatsApp Us</Button>
+              {/* <Button>WhatsApp Us</Button> */}
             </a>
           </div>
           <div style={styles.contactMethod}>
             <Button onClick={() => {
-              navigator.clipboard.writeText("shubham@bytebath.com")
-              message.success("shubham@bytebath.com Copied to Clipboard")
+              navigator.clipboard.writeText("shubhangi@bytebath.com")
+              message.success("shubhangi@bytebath.com Copied to Clipboard")
             }}>Copy Email</Button>
           </div>
           <div style={styles.contactMethod}>
-            <a style={{ textDecoration: 'none' }} href="https://calendly.com/byetbath/30min" target='_blank'>
+            <a style={{ textDecoration: 'none' }} href="https://calendly.com/shubhangibytebath/30min" target='_blank'>
               <Button>Schedule a Call</Button>
             </a>
           </div>

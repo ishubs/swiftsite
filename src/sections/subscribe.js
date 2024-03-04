@@ -5,7 +5,7 @@ import SectionHeading from 'components/section-heading';
 import SubscriptionForm from 'components/subscription-form';
 import { Button } from 'theme-ui';
 import { useState } from 'react';
-import {Modal} from 'antd'  ;
+import { Modal } from 'antd';
 import { message } from 'antd';
 const Subscribe = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -17,15 +17,15 @@ const Subscribe = () => {
           title="Get In Touch Now to Discuss Your Project"
           description="Build your project faster and more efficiently with our team of highly skilled developers."
         />
-        <Button onClick={()=>setIsModalOpen(true)} style={{ maxWidth: 'fit-content', margin: '0 auto' }}>{'Get In Touch Now'}</Button>
+        <Button onClick={() => setIsModalOpen(true)} style={{ maxWidth: 'fit-content', margin: '0 auto' }}>{'Get In Touch Now'}</Button>
       </Container>
       <Modal footer={null} title="How Would You Like To Contact Us?" open={isModalOpen} onCancel={() => setIsModalOpen(false)}>
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around', marginTop: '40px', gap: '30px', flexWrap: 'wrap' }}>
           <div style={styles.contactMethod}>
-            <a target='_blank' style={{ textDecoration: 'none', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', color: 'green' }} href='https://wa.me/919346009605?text=Hi%20there%2C%20I%20need%20web%20development%20services.'>
+            {/* <a target='_blank' style={{ textDecoration: 'none', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', color: 'green' }} href='https://wa.me/919346009605?text=Hi%20there%2C%20I%20need%20web%20development%20services.'> */}
 
-              <Button>WhatsApp Us</Button>
-            </a>
+            {/* <Button>WhatsApp Us</Button> */}
+            {/* </a> */}
           </div>
           <div style={styles.contactMethod}>
             <Button onClick={() => {
