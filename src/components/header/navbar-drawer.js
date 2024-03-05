@@ -56,14 +56,15 @@ const NavbarDrawer = () => {
             </Box>
           ))}
         </Box>
-        <a style={{textDecoration: 'none', 
-    margin: 'auto 30px 40px',
-      display: 'flex'
-      }} href="https://calendly.com/byetbath/30min" target='_blank'>
-                  
-        <Button variant="primary" sx={styles.donateNow}>
-          Schedule a Call
-        </Button>
+        <a style={{
+          textDecoration: 'none',
+          margin: 'auto 30px 40px',
+          display: 'flex'
+        }} href="https://calendly.com/shubhangibytebath/30min" target='_blank'>
+
+          <Button variant="primary" sx={styles.donateNow}>
+            Schedule a Call
+          </Button>
         </a>
 
       </Box>
@@ -144,6 +145,6 @@ const styles = {
   donateNow: {
     fontSize: 1,
     minHeight: 45,
-    flex : 1
+    flex: 1
   },
 };
