@@ -16,22 +16,22 @@ const data = [
     title: 'We have more than customers',
   },
   {
+    id: 3,
+    color: '#FA578E',
+    value: '50%',
+    title: 'Budget Savings on Every Project',
+  },
+  {
     id: 2,
     color: '#FF753A',
     value: '150+',
     title: 'Successfully Delivered Projects',
   },
   {
-    id: 3,
-    color: '#FA578E',
-    value: '50+',
-    title: 'Highly Experienced Developers',
-  },
-  {
     id: 4,
     color: '#28DCB2',
-    value: '10+',
-    title: 'Different Industry Projects',
+    value: '5X',
+    title: '5X Faster than Industry Standards',
   },
 ];
 

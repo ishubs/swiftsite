@@ -55,28 +55,28 @@ const data = [
       username: '@cherice.me',
       text: `Thank you for all your help. Your service was excellent and very FAST.`,
     },
-    // {
-    //   id: 6,
-    //   avatar: avatar6,
-    //   name: 'Thais Carballal',
-    //   username: '@myself.thais',
-    //   text: `For our recent trip to S.A. I booked several accommodation thru SA Places. I just wanted to tell you that everything worked out perfectly with all the bookings and also your booking was very quick and professional. I hope I have the opportunity to re-visit South Africa soon, I will then make my bookings with your company again. I will also recommend`,
-    // },
+    {
+      id: 6,
+      avatar: avatar6,
+      name: 'Hisab Softwares',
+      username: '@myself.thais',
+      text: `Bytebath Technologies exceeded our expectations. Their technical prowess and attention to detail brought our vision to life seamlessly. Their professionalism and commitment to client satisfaction are unmatched. Highly recommend them for web development.`,
+    },
   ],
   [
-    // {
-    //   id: 7,
-    //   avatar: avatar7,
-    //   name: 'Veona Watson',
-    //   username: '@hi.veona',
-    //   text: `I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you`,
-    // },
+    {
+      id: 7,
+      avatar: avatar7,
+      name: 'ClonemyTrips',
+      username: '@hi.veona',
+      text: `The team at ByteBath Technologies is professional, responsive, and attentive. They are a pleasure to work with. I would highly recommend them to anyone looking for a reliable web development partner. They delivered our MVP within 14 days of our first zoom call. They have been a great asset to our firm.`,
+    },
     {
       id: 8,
       avatar: avatar8,
       name: 'Minnie Horn',
       username: '@hello.mimmie',
-      text: `I would like to take this opportunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.`,
+      text: `I would like to take this opportunity to thank Bytebath team for the great service rendered to us and in particular Aakash. You got me the best place ever in just a few moments after I spoke to you.`,
     },
   ],
   [
@@ -140,7 +140,7 @@ const Testimonials = () => {
         <SectionHeading
           sx={styles.heading}
           title="What client say about us"
-          description="Customer testimonial"
+          description="Client testimonial"
         />
       </Container>
       <Swiper sx={styles.carousel} {...options}>

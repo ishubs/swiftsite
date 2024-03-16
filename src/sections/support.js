@@ -8,20 +8,26 @@ const data = [
   {
     id: 1,
     icon: support,
-    title: 'Building your digital product',
-    description: `We build your online presence / product with top notch technology that can scale, is fast and can be relied upon for years to come`,
+    title: 'Building your product',
+    description: `We build your product with top notch technology that can scale, is fast and can be relied upon for years to come`,
   },
   {
     id: 2,
     icon: support,
     title: 'Hire a Developer',
-    description: `One of our highly skilled developers will join your team and work closely with them, to solve complex problems and take your product to production`,
+    description: `One of our highly skilled AI powered developers will join your team and work closely with them, to solve complex problems and take your product to production`,
   },
   {
     id: 3,
     icon: support,
     title: 'Hire a Team',
-    description: `Hire a dedicated team of frontend, backend developers, web designers and devops to build your product.`,
+    description: `Hire a dedicated team of AI powered frontend, backend developers, web designers and devops to build your product.`,
+  },
+  {
+    id: 4,
+    icon: support,
+    title: 'Building your MVP',
+    description: `Get your MVP built in less than 21 days without breaking your bank with high costs of hiring a team.`,
   },
 ];
 

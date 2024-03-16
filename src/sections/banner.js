@@ -30,11 +30,18 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-              Empowering Your Digital Future
+              5X
+
+              speed with
+              <br />
+              <span style={{
+                color: '#50C878'
+
+              }}> AI Powered Devs </span>
+
             </Heading>
             <Text as="p">
-              Unlocking Strategic Solutions for Seamless IT Excellence. Elevate Your business with our expert
-              team of IT professionals.
+              Get us a quote and we will deliver in half the time within 75% of your budget
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             {/* <Flex sx={styles.sponsoredBy}>
@@ -68,7 +75,7 @@ const styles = {
   contentWrapper: {
     gap: ['50px 50px'],
     display: ['block', null, null, null, 'grid'],
-    gridTemplateColumns: [null, null, null, null, '1fr 1fr', '0.95fr 1.05fr'],
+    gridTemplateColumns: [null, null, null, null, '1fr 1fr', '1.05fr 0.95fr'],
     alignItems: 'center',
     minHeight: ['auto', null, null, null, '38vh', '100vh'],
     pt: [null, null, null, 8, 0, 9, null],
