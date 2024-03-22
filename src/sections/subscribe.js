@@ -34,7 +34,7 @@ const Subscribe = () => {
             }}>Copy Email</Button>
           </div>
           <div style={styles.contactMethod}>
-            <a style={{ textDecoration: 'none' }} href="https://calendly.com/shubhangibytebath/30min" target='_blank'>
+            <a style={{ textDecoration: 'none' }} href="https://calendly.com/swetha-6rhi/30min" target='_blank'>
               <Button>Schedule a Call</Button>
             </a>
           </div>
