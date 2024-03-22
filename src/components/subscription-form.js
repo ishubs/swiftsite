@@ -32,8 +32,8 @@ const SubscriptionForm = ({ buttonLabel, ...props }) => {
           </div>
           <div style={styles.contactMethod}>
             <Button onClick={() => {
-              navigator.clipboard.writeText("shubhangi@bytebath.com")
-              message.success("shubhangi@bytebath.com Copied to Clipboard")
+              navigator.clipboard.writeText("swetha@bytebath.com")
+              message.success("swetha@bytebath.com Copied to Clipboard")
             }}>Copy Email</Button>
           </div>
           <div style={styles.contactMethod}>
