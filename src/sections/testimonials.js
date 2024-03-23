@@ -163,7 +163,7 @@ const styles = {
   section: {
     backgroundColor: '#FFFCF7',
     pt: [10, null, null, 9, 10, 11, 11],
-    pb: [7, null, null, 7, 7, 9, 9],
+    pb: [10, null, null, 7, 7, 9, 11],
   },
   heading: {
     mb: [7, null, null, null, 8],

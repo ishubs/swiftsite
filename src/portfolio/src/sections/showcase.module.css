@@ -1,0 +1,33 @@
+.centerFocused-carousel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.centerFocused-carousel {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+
+.centerFocused-carousel img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease;
+    /* Adding the transition for the transform property */
+}
+
+.centerFocused-carousel .center img {
+    /* transform: scale(1.2); */
+    /* This was the initial style */
+    width: 500px;
+    border-radius: 20px;
+    animation-fill-mode: none;
+    /* Animation should stop at the final keyframe */
+}

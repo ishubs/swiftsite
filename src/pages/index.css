@@ -1,0 +1,55 @@
+.overlap-carousel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.overlap-carousel {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+
+.overlap-carousel img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease;
+    /* Adding the transition for the transform property */
+}
+
+.overlap-carousel .center img {
+    transform: scale(1.2);
+    width: 500px;
+    border-radius: 20px;
+    z-index: 1;
+    transition: width 1s ease;
+    animation-name: zoomEffect;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+@keyframes zoomEffect {
+    0% {
+        width: 300px;
+
+    }
+
+    100% {
+        width: 500px;
+
+    }
+}
+
+.hover-image:hover {
+    scale: 1.4;
+
+}

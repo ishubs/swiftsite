@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
 import Router from 'next/router';
 import { initGA, logPageView } from 'analytics';
+import 'swiper/swiper-bundle.min.css';
 import 'rc-drawer/assets/index.css';
-import 'rc-tabs/assets/index.css';
-import 'swiper/swiper-bundle.css';
-import './index.css'
+import 'react-modal-video/css/modal-video.min.css';
+import 'typeface-dm-sans';
+
 export default function CustomApp({ Component, pageProps }) {
   useEffect(() => {
     initGA();
