@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { Script } from 'next';
+
 class CustomDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -16,20 +16,6 @@ class CustomDocument extends Document {
             crossOrigin="anonymous"
           />
         </Head>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-J62V9J0HQ2"
-        />
-
-        <Script id="google-analytics">
-          {`
-               window.dataLayer = window.dataLayer || [];
-               function gtag(){dataLayer.push(arguments);}
-               gtag('js', new Date());
-             
-               gtag('config', 'G-J62V9J0HQ2');
-          `}
-        </Script>
         <body>
           <Main />
           <NextScript />
