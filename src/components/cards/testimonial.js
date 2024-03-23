@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx, Box, Flex, Heading, Link } from 'theme-ui';
-import Image from 'components/image';
 
 const Testimonial = ({ data }) => {
   return (

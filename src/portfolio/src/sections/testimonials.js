@@ -3,7 +3,6 @@ import SwiperCore, { Thumbs, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Box, Container, Text, Heading } from 'theme-ui';
 import BlockTitle from '../components/block-title';
-import Image from '../components/image';
 
 import img1 from '../assets/testi-1-1.png';
 import img2 from '../assets/testi-1-2.png';

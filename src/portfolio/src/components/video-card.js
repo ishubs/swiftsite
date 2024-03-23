@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'components/Image';
+// import Image from 'components/Image';
 export default function VideoCard({ imageUrl }) {
   return (
     <div
@@ -11,7 +11,7 @@ export default function VideoCard({ imageUrl }) {
         //overflow(img borderRadius: inherit)
       }}
     >
-      <Image src={imageUrl} alt="video preview" />
+      {/* <Image src={imageUrl} alt="video preview" /> */}
     </div>
   );
 }

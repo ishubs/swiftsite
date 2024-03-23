@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-agency-alpha.vercel.app',
+  siteUrl: 'https://bytebath.com',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {

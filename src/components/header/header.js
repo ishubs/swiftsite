@@ -4,7 +4,6 @@ import Sticky from 'react-stickynode';
 import { useState } from 'react';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
 import NavbarDrawer from './navbar-drawer';
-import Image from 'components/image';
 import Logo from 'components/logo';
 import { NavLink } from 'components/link';
 
