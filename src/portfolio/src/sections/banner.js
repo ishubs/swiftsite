@@ -3,7 +3,7 @@ import { Box, Container, Grid, Button, Input, Heading, Text } from 'theme-ui';
 import Image from '../components/image';
 import bannerImg from '../assets/banner-image-1-1.png';
 import { Alert, Dropdown, Progress, Select, Slider, Button as AntdButton, Card } from 'antd';
-import group from '../assets/group.png';
+import group from '../assets/Group.png';
 import green from '../assets/green2.png';
 const Banner = () => {
 
