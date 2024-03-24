@@ -3,7 +3,8 @@ import { Box, Container, Grid, Button, Input, Heading, Text } from 'theme-ui';
 import Image from '../components/image';
 import bannerImg from '../assets/banner-image-1-1.png';
 import { Alert, Dropdown, Progress, Select, Slider, Button as AntdButton, Card } from 'antd';
-
+import group from '../assets/group.png';
+import green from '../assets/green2.png';
 const Banner = () => {
 
 
@@ -95,14 +96,42 @@ const Banner = () => {
           // background: 'red'
         }}
       ></div>
+      <img src={green} width={350} style={{
+        position: 'absolute',
+        top: '150px',
+        left: '-200px',
+        transform: 'rotate(225deg)',
+
+        // width: '100%',
+        // height: '100%',
+        // objectFit: 'cover',
+        // filter: 'blur(4px)',
+        zIndex: 900
+      }} />
+      <img src={group} width={100} style={{
+        position: 'absolute',
+        top: '500px',
+        left: '100px',
+
+        // width: '100%',
+        // height: '100%',
+        // objectFit: 'cover',
+        // filter: 'blur(4px)',
+        zIndex: 10000
+      }} />
+      {/* </div> */}
+      {/* </div> */}
+
       <div
         sx={styles.backdiv}
+        className='backdiv'
 
         style={{
           position: 'absolute',
           top: '100px',
           right: '-90px',
           transform: `rotate3d(24, -83, 45, 57deg)`,
+
           // insetInlineEnd: '0px',
           // zIndex: 900,
         }}
@@ -216,7 +245,7 @@ const Banner = () => {
           style={{
 
           }}>
-          Senior <br /> Frontend developer
+          Senior <br /> Frontend Developer
         </Heading>
         <Text
 
@@ -276,10 +305,7 @@ const Banner = () => {
 export default Banner;
 
 const styles = {
-  backdiv: {
-    // display: ['none', null, null, null, 'flex', 'flex'],
-    display: 'none'
-  },
+
   banner: {
     pt: ['110px', null, null, null, '150px', '200px'],
     pb: ['50px', null, null, null, '60px', null, '0'],

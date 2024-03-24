@@ -24,7 +24,7 @@ export default function IndexPage() {
           <Banner />
           <Services />
           <Clients />
-          {/* <Showcase /> */}
+          <Showcase />
           {/* <BoostAgencies /> */}
           {/* <VideoOne /> */}
           <Testimonials />

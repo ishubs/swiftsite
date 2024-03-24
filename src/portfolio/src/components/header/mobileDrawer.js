@@ -73,11 +73,11 @@ const MobileDrawer = () => {
             ))}
           </Box>
 
-          <Box sx={styles.menuFooter}>
+          {/* <Box sx={styles.menuFooter}>
             <Button variant="primary" sx={styles.button}>
               Register Now
             </Button>
-          </Box>
+          </Box> */}
         </Box>
       </Scrollbars>
     </Drawer>

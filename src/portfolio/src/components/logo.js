@@ -11,7 +11,8 @@ export default function Logo() {
         variant: 'links.logo',
       }}
     >
-      <Image src={logo} sx={{ display: 'flex' }} alt="" />
+      {/* <Image src={logo} sx={{ display: 'flex' }} alt="" /> */}
+      Shubham Giri
     </Link>
   );
 }
