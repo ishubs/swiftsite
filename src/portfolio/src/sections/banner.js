@@ -245,7 +245,9 @@ const Banner = () => {
           style={{
 
           }}>
-          Senior <br /> Frontend Developer / Designer
+          Senior
+          <br />
+          Developer | Designer
         </Heading>
         <Text
 
