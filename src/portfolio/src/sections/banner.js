@@ -245,7 +245,7 @@ const Banner = () => {
           style={{
 
           }}>
-          Senior <br /> Frontend Developer
+          Senior <br /> Frontend Developer / Designer
         </Heading>
         <Text
 
@@ -260,7 +260,7 @@ const Banner = () => {
           as="p">
           With over 5+ years of experience in the industry, I have been
           helping companies solve complex problems with my expertise in
-          Frontend
+          Design & Frontend
         </Text>
         <Box as="form" sx={styles.form}>
           <Button type="submit" sx={styles.form.button}

@@ -23,9 +23,9 @@ const SERVICES_DATA = [
   },
   {
     icon: icon3,
-    title: 'Outsourcing work',
+    title: 'Web Design',
     text:
-      'Outsource your whole frontend development so you can focus on your business pain points',
+      'Keen eye for design and detail, creating visually appealing websites that are easy to use and navigate, with a focus on user experience.',
   },
   {
     icon: icon4,
