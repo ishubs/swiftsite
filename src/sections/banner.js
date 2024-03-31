@@ -30,18 +30,17 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-              5X
-
-              speed with
+              Your First Version
               <br />
               <span style={{
                 color: '#50C878'
 
-              }}> AI Powered Devs </span>
+              }}>Ready in 2 Weeks</span>
 
             </Heading>
             <Text as="p">
-              Get us a quote and we will deliver in half the time within 75% of your budget
+              Roll out your first version of the product in less than
+              <br></br>21 days or you don't pay a dime
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             {/* <Flex sx={styles.sponsoredBy}>

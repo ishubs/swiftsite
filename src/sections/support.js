@@ -37,7 +37,7 @@ const Support = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Our Services"
+          title="Services"
         // description="Customer testimonial"
         />
       </Container>

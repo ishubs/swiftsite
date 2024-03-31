@@ -10,6 +10,7 @@ import { NavLink } from 'components/link';
 import menuItems from './header.data';
 import lock from 'assets/images/icons/lock.jpg';
 
+
 export default function Header() {
   const [state, setState] = useState({
     isMobileMenu: false,
@@ -49,10 +50,25 @@ export default function Header() {
                         <NavLink
                           path={path}
                           label={label}
-                          onClick={handleCloseMenu}
+                          // onClick={handleCloseMenu}
+                          onClick={() => {
+                            handleCloseMenu()
+                            window.location.href = `/#${path}`;
+
+                          }}
+
                         />
                       </li>
                     ))}
+                    <NavLink
+                      path={'/case-studies'}
+                      label={"Success Stories"}
+                      onClick={() => {
+
+                        window.location.href = '/case-studies';
+
+                      }}
+                    />
                   </Box>
                 </Flex>
                 <Flex sx={styles.buttonGroup}>
