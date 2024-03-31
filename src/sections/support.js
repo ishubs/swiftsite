@@ -45,10 +45,10 @@ const Support = () => {
         <Grid sx={styles.grid}>
           {data?.map((item) => (
             <Flex key={item.id} sx={styles.supportItem}>
-              <Flex as="figure" sx={styles.media}>
+              {/* <Flex as="figure" sx={styles.media}>
                 <Image src={item?.icon} alt={item?.title} />
-              </Flex>
-              <Box sx={styles.content}>
+              </Flex> */}
+              <Box Box sx={styles.content} >
                 <Heading>
                   {item?.title} <Image src={rightArrow} alt="rightArrow" />
                 </Heading>
@@ -57,8 +57,8 @@ const Support = () => {
             </Flex>
           ))}
         </Grid>
-      </Container>
-    </Box>
+      </Container >
+    </Box >
   );
 };
 
