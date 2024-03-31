@@ -65,7 +65,7 @@ const Features = () => {
               Delivering Faster than Industry Standards
             </Text>
             <Box sx={styles.explore}>
-              <LearnMore path="#!" label="Explore More" />
+              {/* <LearnMore path="#!" label="Explore More" /> */}
             </Box>
           </Box>
         </Box>
