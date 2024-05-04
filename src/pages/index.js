@@ -12,7 +12,6 @@ import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
 import Subscribe from 'sections/subscribe';
 import Work from 'sections/work'
-import Portfolio from 'portfolio/src/pages/index'
 import WorkFlow from 'sections/workflow';
 import TeamSection from 'sections/team';
 export default function IndexPage() {
