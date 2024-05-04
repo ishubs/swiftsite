@@ -32,12 +32,12 @@ const SubscriptionForm = ({ buttonLabel, ...props }) => {
           </div>
           <div style={styles.contactMethod}>
             <Button onClick={() => {
-              navigator.clipboard.writeText("swetha@bytebath.com")
-              message.success("swetha@bytebath.com Copied to Clipboard")
+              navigator.clipboard.writeText("shubham@bytebath.com")
+              message.success("shubham@bytebath.com Copied to Clipboard")
             }}>Copy Email</Button>
           </div>
           <div style={styles.contactMethod}>
-            <a style={{ textDecoration: 'none' }} href="https://calendly.com/swetha-6rhi/30min" target='_blank'>
+            <a style={{ textDecoration: 'none' }} href="https://calendly.com/shubsgiri/30min" target='_blank'>
               <Button>Schedule a Call</Button>
             </a>
           </div>

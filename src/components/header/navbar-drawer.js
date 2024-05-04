@@ -60,7 +60,7 @@ const NavbarDrawer = () => {
           textDecoration: 'none',
           margin: 'auto 30px 40px',
           display: 'flex'
-        }} href="https://calendly.com/swetha-6rhi/30min" target='_blank'>
+        }} href="https://calendly.com/shubsgiri/30min" target='_blank'>
 
           <Button variant="primary" sx={styles.donateNow}>
             Schedule a Call

@@ -13,6 +13,7 @@ import avatar5 from 'assets/images/testimonials/5.png';
 import avatar6 from 'assets/images/testimonials/6.png';
 import avatar7 from 'assets/images/testimonials/7.png';
 import avatar8 from 'assets/images/testimonials/8.png';
+import { Autoplay } from 'swiper';
 
 const data = [
   [
@@ -117,6 +118,13 @@ const Testimonials = () => {
   const options = {
     spaceBetween: 20,
     loop: true,
+    autoplay: {
+      delay: 500,
+      waitForTransition: true,
+      disableOnInteraction: false,
+
+    },
+    speed: 20000,
     grabCursor: true,
     centeredSlides: true,
     breakpoints: {
@@ -139,8 +147,8 @@ const Testimonials = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="What client say about us"
-          description="Client testimonial"
+          title="What clients say about us"
+          description="Client testimonials"
         />
       </Container>
       <Swiper sx={styles.carousel} {...options}>
