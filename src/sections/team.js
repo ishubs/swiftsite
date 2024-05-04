@@ -87,7 +87,7 @@ const data = [
         imgSrc: Member4,
         altText: 'Aakash Kumar',
         title: 'Aakash Kumar',
-        designation: 'Teach Lead',
+        designation: 'Tech Lead',
         socialProfile: [
             // {
             //     id: 1,
